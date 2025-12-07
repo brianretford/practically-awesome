@@ -62,7 +62,7 @@ Structured thinking, ontologies, and constraint-based systems provide frameworks
 
 ### Configuration and Product Modeling
 
-- [CKMS (Configuration Knowledge Management System)](https://github.com/topics/configuration-management) - Systems for managing complex product configurations using constraints.
+- [Configuration Management Systems](https://github.com/topics/configuration-management) - Collection of systems for managing complex product configurations using constraints (see GitHub topic for various implementations).
 - [VariCAD](https://www.varicad.com/) - Software for constraint-based parametric CAD design.
 
 ## Structured Thinking Tools
@@ -110,7 +110,7 @@ Structured thinking, ontologies, and constraint-based systems provide frameworks
 - [Wikidata](https://www.wikidata.org/) - Free and open knowledge base that can be read and edited by both humans and machines.
 - [DBpedia](https://www.dbpedia.org/) - Crowd-sourced community effort to extract structured information from Wikipedia.
 - [YAGO](https://yago-knowledge.org/) - Huge semantic knowledge base derived from Wikipedia, WordNet, and GeoNames.
-- [Freebase](https://developers.google.com/freebase) - Large collaborative knowledge base (now archived, data available).
+- [Freebase](https://developers.google.com/freebase) - Large collaborative knowledge base (archived in 2016; data dumps available for download from the linked page).
 - [ConceptNet](https://conceptnet.io/) - Multilingual knowledge graph connecting words and phrases with labeled edges.
 
 ## Semantic Web Technologies
@@ -226,7 +226,7 @@ Structured thinking, ontologies, and constraint-based systems provide frameworks
 ### Foundational Papers
 
 - [A Semantic Web Primer](https://www.w3.org/2009/pdf/web-services/A_Semantic_Web_Primer.pdf) - Introduction to semantic web technologies.
-- [Description Logics](https://www.cambridge.org/core/books/description-logic-handbook/E8C2D3161AEE5D2B2B5D6C39F1A1B1D1) - Comprehensive handbook on description logics.
+- [Description Logic Handbook](https://www.cambridge.org/core/books/description-logic-handbook/E1C963CACE86BD9735B25879919763CA) - Comprehensive handbook on description logics and their applications.
 - [Constraint Processing](https://www.elsevier.com/books/constraint-processing/dechter/978-1-55860-890-0) - Rina Dechter's comprehensive book on constraint satisfaction.
 
 ### Key Research Areas
