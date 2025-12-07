@@ -2,7 +2,7 @@
 
 > Interesting projects exploring the realm on structured thinking, ontology, and constraint-based systems.
 
-A curated collection of projects, datasets, ontologies, and tools that aim to make the structure of thought, knowledge, and constraints explicit — across science, software, simulation, and everyday domains.
+A semi-curated [LLM-aided] collection of projects, datasets, ontologies, and tools that aim to make the structure of thought, knowledge, and constraints explicit — across science, software, simulation, and everyday domains.
 
 ---
 
@@ -47,13 +47,13 @@ This list loosely favors projects that touch some combination of:
   Formal or semi-formal ways to externalize reasoning: typed models, state machines, decision structures, compositional schemas.
 
 - **Ontology / Knowledge Graphs**  
-  Typed entities, relations, and often domain-specific constraints.
+  Typed entities, relations, and domain-specific constraints.
 
 - **Constraint-Based Systems**  
   Logic programming, solvers, synthesis frameworks, and tools that treat “what must be true” as a first-class object.
 
 - **Process & State**  
-  Systems that care about transitions: from biochemistry pathways to simulation environments to provenance models.
+  Systems that care about transitions: biochemistry pathways, simulation environments, provenance models, games.
 
 ---
 
@@ -61,142 +61,169 @@ This list loosely favors projects that touch some combination of:
 
 General-purpose or multi-domain knowledge systems.
 
-- [totogo/awesome-knowledge-graph](https://github.com/totogo/awesome-knowledge-graph)  
-  Curated list of knowledge-graph databases, tools, and datasets.
+- **Awesome Knowledge Graph** — https://github.com/totogo/awesome-knowledge-graph  
+  Curated list of KG databases, tools, and datasets.
 
-- [ozekik/awesome-ontology](https://github.com/ozekik/awesome-ontology)  
-  Wide-ranging collection of ontology languages, editors, libraries, and upper/domain ontologies.
+- **Awesome Ontology** — https://github.com/ozekik/awesome-ontology  
+  Broad list of ontology languages, editors, libraries, and foundational/domain ontologies.
 
-- [brettkromkamp/awesome-knowledge-management](https://github.com/brettkromkamp/awesome-knowledge-management)  
-  Resources on knowledge representation, conceptual modeling, and semantic systems.
+- **Awesome Knowledge Management** — https://github.com/brettkromkamp/awesome-knowledge-management  
+  Representation, conceptual modeling, semantic systems, and related tools.
 
-- **Wikidata**  
-  Large-scale, community-maintained knowledge graph with a rich property and qualifier system.
+- **Wikidata** — https://www.wikidata.org  
+  Massive collaborative KG with rich qualifiers, references, and typed relations.
 
-- **Schema.org / Bioschemas / related profiles**  
-  Lightweight schemas for structured data on the web, extended into scientific domains.
+- **Schema.org** — https://schema.org  
+  Lightweight structured-data schemas used across the Web.
+
+- **Bioschemas** — https://bioschemas.org  
+  Schema.org-style structured-data extensions for biological entities.
 
 ---
 
 ## Biomedical & Protein-Centric Systems
 
-Knowledge systems where *state*, *transform*, and *constraints* are first-class.
+Knowledge systems where *state*, *transform*, or *constraints* are explicit.
 
-- [robert-haas/awesome-biomedical-knowledge-graphs](https://github.com/robert-haas/awesome-biomedical-knowledge-graphs)  
-  High-quality curated list of biomedical KGs, ontologies, and tools.
+- **Awesome Biomedical Knowledge Graphs (Robert Haas)** — https://github.com/robert-haas/awesome-biomedical-knowledge-graphs  
+  High-quality curation of biomedical KGs, ontologies, standards, tools.
 
-- **BioPAX**  
-  Standard language for representing biological pathways: reactions, participants, control, and context.
+- **BioPAX** — https://biopax.github.io  
+  Standard language for representing biological pathways (reactions, states, controls).
 
-- **Reactome**  
-  Curated pathway database with explicit reaction, state, and process semantics.
+- **Reactome** — https://reactome.org  
+  Expert-curated biological pathway database with explicit reaction/state models.
 
-- **UniProt / OBO Foundry ontologies**  
-  Protein and biological ontologies (GO, CHEBI, etc.) with rich, typed relationships.
+- **UniProt** — https://www.uniprot.org  
+  Comprehensive protein knowledgebase with structured metadata.
+
+- **OBO Foundry Ontologies** — https://obofoundry.org  
+  Collection of interoperable biological and biomedical ontologies (GO, CHEBI, etc.).
 
 ---
 
 ## Food, Cooking, and Material Transformation
 
-Projects that model ingredients, processes, and transformations.
+Projects that model ingredients, processes, cooking steps, and transformations.
 
-- **FoodKG**  
-  Knowledge graph linking ingredients, recipes, and nutritional information; explicit process steps.
+- **FoodKG** — https://github.com/foodkg/foodkg  
+  KG linking recipes, ingredients, substitutions, nutrition.
 
-- **FoodOn**  
-  An ontology for food products, ingredients, and related processes.
+- **FoodOn Ontology** — https://foodon.org  
+  Ontology for food products, ingredients, processes, and food systems.
 
-- **Recipe Ontology / related efforts**  
-  Structured representations of recipes as sequences of constrained transformations (prep, cook, combine).
+- **RecipeKG / Recipe Ontology** — https://github.com/varunhari/RecipeKG  
+  Structured representation of cooking instructions and culinary transformations.
 
 ---
 
 ## Game Engines, Simulation, and Environments
 
-Systems where structured state, actions, and constraints are explicit.
+Systems where structured state, action, and constraints are explicit.
 
-- [dgarijo/VideoGameOntology](https://github.com/dgarijo/VideoGameOntology)  
-  Ontology aiming to describe video games, mechanics, and related entities.
+- **Video Game Ontology (VGO)** — https://github.com/dgarijo/VideoGameOntology  
+  Ontology describing games, mechanics, assets, and interactions.
 
-- **OpenAI Gym / RL environment APIs**  
-  Simple but powerful abstraction: `state → action → new state + reward`, with explicit environment interfaces.
+- **OpenAI Gym** — https://github.com/openai/gym  
+  Standard API for RL environments: `state → action → new state + reward`.
 
-- **Unity ML-Agents / RL in Unity**  
-  Bridges game engines with formalized observation/action spaces and reward structures.
+- **Unity ML-Agents** — https://github.com/Unity-Technologies/ml-agents  
+  Unity engine agents with explicit observation/action/reward schema.
 
-- **Unreal / Unity data schemas** (non-ontological but structurally rich)  
-  Scene graphs, component systems, and blueprints as de-facto ontologies of interactive worlds.
+- **Unreal Engine Documentation (Data Models)** — https://dev.epicgames.com/documentation/en-us/unreal-engine  
+  Component model, scene graphs, Blueprints as de facto ontological structures.
+
+- **Unity Data Model Docs** — https://docs.unity3d.com  
+  Entity-component models and typed scene structures.
 
 ---
 
 ## Constraint-Based & Logic Systems
 
-Tools that treat constraints, logic, and relations as primary modeling devices.
+Tools based on logical structure, constraints, and rule-based modeling.
 
-- **Prolog and modern descendants (e.g., SWI-Prolog, Logtalk)**  
-  Declarative logic programming: facts, rules, queries.
+- **SWI-Prolog** — https://www.swi-prolog.org  
+  Prolog engine for logic programming and symbolic reasoning.
 
-- **Z3 / SMT solvers**  
-  Satisfiability modulo theories engines used for verification, synthesis, configuration, and scheduling.
+- **Logtalk** — https://logtalk.org  
+  Object-oriented extension to Prolog for modular entities and relations.
 
-- **Alloy**  
-  Relational modeling language and analyzer for expressing structures and constraints, then checking them.
+- **Z3 SMT Solver** — https://github.com/Z3Prover/z3  
+  Solver for logical theories; widely used for verification and synthesis.
 
-- **Answer Set Programming (Clingo, etc.)**  
-  Declarative problem specification + solver-based model generation.
+- **Alloy Analyzer** — https://alloytools.org  
+  Relational modeling language + analyzer for structure/constraint checking.
 
-- **MiniZinc**  
-  High-level constraint modeling language targeting multiple solvers.
+- **Clingo (Answer Set Programming)** — https://potassco.org/clingo  
+  Declarative problem modeling with constraint solving semantics.
+
+- **MiniZinc** — https://www.minizinc.org  
+  High-level constraint modeling language supporting many solvers.
 
 ---
 
 ## Structured Knowledge Management
 
-Systems that blur the line between notes, models, and graphs.
+Tools that blur the line between notes, graphs, and structured models.
 
-- **Roam Research / Logseq / Obsidian plugins (graph views, typed links)**  
-  Personal knowledge tools that introduce structure, typed links, and emergent graphs.
+- **Roam Research** — https://roamresearch.com  
+  Bidirectional linking + graph view for structured ideas.
 
-- **TiddlyWiki + plugins for typed fields and semantics**  
-  Hypertext wiki system where fields and links can approximate a lightweight ontology.
+- **Logseq** — https://logseq.com  
+  Open-source outliner with typed links, properties, and graph queries.
 
-- **Concept mapping tools** (CmapTools, etc.)  
-  Visual structuring of concepts and relations; often exportable as graphs.
+- **Obsidian** — https://obsidian.md  
+  Markdown knowledge base with community plugins for ontologies and typed fields.
+
+- **TiddlyWiki** — https://tiddlywiki.com  
+  Structured fields + hypertext for building typed knowledge systems.
+
+- **CmapTools** — https://cmap.ihmc.us  
+  Concept-mapping software with exportable structured graphs.
 
 ---
 
 ## Process / Provenance / Causality Models
 
-Standards and projects modeling how things came to be: activities, agents, entities, and their relations.
+Models of activity, entities, agents, and causal relationships.
 
-- **W3C PROV-O (Provenance Ontology)**  
-  Ontology for describing entities, activities, and agents, and how they influence each other.
+- **W3C PROV-O** — https://www.w3.org/TR/prov-o  
+  Provenance ontology describing entities, activities, agents, and derivations.
 
-- **Open Provenance Model (OPM)**  
-  Earlier model for provenance; influences PROV-O and related efforts.
+- **Open Provenance Model (OPM)** — https://openprovenance.org/opm  
+  Earlier provenance model; precursor to many workflow semantics.
 
-- **Workflow and pipeline ontologies**  
-  Systems describing scientific workflows, data pipelines, and their causal graphs.
+- **CWL (Common Workflow Language)** — https://www.commonwl.org  
+  Structured representation of computational workflows and their dependencies.
+
+- **Nextflow Schema / Workflow DSL** — https://www.nextflow.io  
+  Workflow semantics and provenance modeling.
 
 ---
 
 ## Core Abstractions and Meta-Schemas
 
-Projects and ideas that explicitly try to provide “unifying” abstractions across domains.
+Projects exploring universal or cross-domain structural abstractions.
 
-- **Upper Ontologies** (BFO, DOLCE, etc.)  
-  Attempts to formalize very general categories (object, process, quality, role, etc.) for reuse.
+- **Basic Formal Ontology (BFO)** — https://basic-formal-ontology.org  
+  Foundational ontology for representing universal categories.
 
-- **Category-Theoretic Approaches to Systems**  
-  Monoidal categories, lenses, open systems modeling, and compositionality for networked dynamics.
+- **DOLCE Ontology** — http://www.loa.istc.cnr.it/old/DOLCE.html  
+  Upper ontology focused on cognitive and linguistic grounding.
 
-- **State-Transition / Actor Models**  
-  XState, TLA+, Petri nets, process calculi — all ways to describe discrete state and change under constraints.
+- **Process Calculi (π-calculus, CSP)**  
+  Formal models for composable concurrent processes.  
+  π-calculus overview: https://pi-calculus.net
 
-- **Relational & Graphical Modeling Frameworks**  
-  Factor graphs, probabilistic graphical models, PGMs-as-structure.
+- **Petri Nets (PNML Standard)** — https://pnml.org  
+  Graphical and formal notation for state-transition nets with concurrency.
 
-_This section is intentionally meta: it collects projects and frameworks that help you think about structure, constraints, and processes in a reusable way._
+- **TLA+** — https://lamport.azurewebsites.net/tla/tla.html  
+  Specification language for state transitions and temporal constraints.
+
+- **Category-Theory for Open Systems (Applied Category Theory)**  
+  Research group: https://topos.institute  
+  Tutorials: https://github.com/ekmett/category-theory
 
 ---
 
@@ -214,15 +241,15 @@ Contributions are welcome.
   - clear documentation,  
   - explicit schemas or conceptual models (not just code blobs).
 
-Please open a PR with:
-- a one-line description,
-- why it’s structurally interesting,
+Open a PR with:
+- a one-line description,  
+- why it's structurally interesting,  
 - and a link.
 
 ---
 
 ## License
 
-Unless otherwise noted, this list is licensed under **CC BY 4.0**.
+This list is licensed under **CC BY 4.0**.
 
 You are free to share and adapt it, with attribution.
